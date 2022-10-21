@@ -7,7 +7,6 @@ class StudentsController < ApplicationController
     @student = Student.new
   end
   def create
-    # debugger
     @student = Student.new(student_params)
      if @student.save
       redirect_to students_path
