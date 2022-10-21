@@ -14,7 +14,6 @@ class StudentsController < ApplicationController
       render :new
      end
 
-     
   end
 
   def show
