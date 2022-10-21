@@ -13,7 +13,6 @@ class StudentsController < ApplicationController
      else
       render :new
      end
-
   end
 
   def show
