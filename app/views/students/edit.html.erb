@@ -24,11 +24,6 @@
       <%= f.text_field :address, { class: "form-control", placeholder: "Address" } %>
     </div>
 
-    <div class="mb-3">
-      <%= f.label :city, { class: "form-label"} %>
-      <%= f.text_field :city, { class: "form-control", placeholder: "City" } %>
-    </div>
-
 
     <% if @student.errors.any?%>
        <% @student.errors.full_messages.each do |message|%>

@@ -1,4 +1,4 @@
 class Student < ApplicationRecord
-  validates :id_no, :first_name, :last_name, :address , :city , presence: true
+  validates :first_name, :last_name, :address , presence: true
 
 end

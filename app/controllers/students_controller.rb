@@ -40,6 +40,6 @@ end
   private
 
   def student_params
-    params.require(:student).permit(:id_no, :first_name, :last_name, :address, :city)
+    params.require(:student).permit(:first_name, :last_name, :address, :city)
   end
 end
